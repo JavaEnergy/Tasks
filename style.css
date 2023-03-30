@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(224, 232, 255, 1);
+  font-family: "Red Hat Display";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./image/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 450px;
+  border-radius: 28px;
+}
+
+.inner-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 28px 28px 0 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 28px;
+  color: #1f2e55;
+  margin-bottom: 12px;
+}
+
+.description {
+  width: 80%;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: rgba(113, 127, 166, 1);
+}
+
+.annual {
+  background: #f7f9ff;
+  border-radius: 11px;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 25px 24px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.info {
+  display: flex;
+  gap: 12px;
+}
+.annualText {
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.change {
+  color: #382ae1;
+}
+.change:hover {
+  color: #766cf1;
+  cursor: pointer;
+}
+.buttons {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+}
+.proceed {
+  background-color: #382ae1;
+  color: white;
+  border-radius: 11px;
+  width: 100%;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Red Hat Display";
+  border: none;
+  padding: 15px 0;
+}
+.proceed:hover {
+  background-color: #766cf1;
+  cursor: pointer;
+}
+.cancel {
+  color: #717fa6;
+  font-weight: 900;
+  font-size: 15px;
+  font-family: "Red Hat Display";
+}
+.cancel:hover {
+  color: #1f2e55;
+  cursor: pointer;
+}
